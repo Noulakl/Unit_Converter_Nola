@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background: #151F2E;
+}
+
+li{
+    font-size: 16pt;
+    list-style: square;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+main{
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    }
+
+h3{
+    color: #CCC1FF;
+    font-size: 20pt;
+    }
+
+input{
+    border: #B295FF 2px solid;
+    background: none;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    margin: 25px;
+    font-size: 58pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+button{
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    font-size: 16pt;
+    font-weight: medium;
+    margin: 10px;
+}
+
+button:hover{
+    transform: scale(120%);
+    box-shadow: 4px 4px #273549;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+}
+.Unit{
+    height: 108.57px;
+    background: #273549;
+    border-top-left-radius: 10px;
+    padding: 31px 77px 18.57px 77px;
+    margin-bottom: 20px;
+}
+.ConvertedUnits{
+    font-size: 14px;
+    font-weight: bold;
+}
+.ConvertedUnits:hover{
+    transform: scale(150%);
+}
+.MockBtn{
+    width: 117px;
+    height: 42px;
+    border-radius: 2px;
+    border: none;
+    background: white;
+    color: black;
+    padding: 2px 5px;
+    font-weight: normal;
+    margin: 0 5px;
+
+}
+#hero{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6943FF;
+    height: 285px;
+    width: 550px;
+    margin-bottom: 20px ;
+}

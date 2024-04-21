@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+  <main>
+    <div id="hero">
+      <h2>
+        Metric/Imperial Unit Conversion
+      </h2>
+      <input id="UnitInputEl" type="number">
+      <div class="btnContainer">
+        <button id="ConvertBtn" >Convert</button>
+        <button id="ClearBtn" >Clear</button>
+    </div>
+    </div>
+
+    <div class="Unit">
+      <h3>
+        Length (Meter/Feet)
+      </h3>
+      <p class="ConvertedUnits" id="meterEl">
+        Click the<span class="MockBtn"> Convert </span>button to show the result.
+      </p>
+    </div>
+
+    <div class="Unit">
+      <h3>
+        Volume (Liters/Gallons)
+
+      </h3>
+      <p class="ConvertedUnits" id="literEl">
+        Click the<span class="MockBtn"> Convert </span>button to show the result. 
+      </p>
+    </div>
+
+    <div class="Unit">
+      <h3>
+        Mass (Kilograms/Pounds)
+      </h3>
+      <p class="ConvertedUnits" id="kiloEl">
+        Click the<span class="MockBtn"> Convert </span>button to show the result.
+      </p>
+    </div>
+  </main>
+  <section>
+    <ul id="PreviousConversions">
+    </ul>
+  </section>
+  <script src="./index.js"></script>  
+</body>
+</html>
